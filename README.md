@@ -1,8 +1,8 @@
-# python-template
+# django-template
 
-Template Repo for Python Applications
+Template Repo for Django Applications
 
-This repo can be used as a starting point for developing your Python App.
+This repo can be used as a starting point for developing your Django App.
 
 Here are some of the features of the template:
 
