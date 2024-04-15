@@ -4,14 +4,18 @@
 #
 #    pip-compile --extra=dev --output-file=requirements-dev.txt pyproject.toml
 #
+asgiref==3.8.1
+    # via django
 black==24.4.0
-    # via python-template (pyproject.toml)
+    # via django-template (pyproject.toml)
 click==8.1.7
     # via black
+django==5.0.4
+    # via django-template (pyproject.toml)
 iniconfig==2.0.0
     # via pytest
 mypy==1.9.0
-    # via python-template (pyproject.toml)
+    # via django-template (pyproject.toml)
 mypy-extensions==1.0.0
     # via
     #   black
@@ -27,8 +31,10 @@ platformdirs==4.2.0
 pluggy==1.4.0
     # via pytest
 pytest==8.1.1
-    # via python-template (pyproject.toml)
+    # via django-template (pyproject.toml)
 ruff==0.3.7
-    # via python-template (pyproject.toml)
+    # via django-template (pyproject.toml)
+sqlparse==0.5.0
+    # via django
 typing-extensions==4.11.0
     # via mypy

@@ -3,6 +3,7 @@ name = "django-template"
 version = "1"
 requires-python = ">3.12"
 dependencies = [
+    "django",
     ]
 
 [project.optional-dependencies]

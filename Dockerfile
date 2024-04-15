@@ -32,3 +32,4 @@ ENTRYPOINT ["./start.sh"]
 
 FROM dev-python-install as development
 WORKDIR ${APP_SRC_PATH}
+ENTRYPOINT ["./start.sh"]
