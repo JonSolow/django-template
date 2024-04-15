@@ -11,7 +11,14 @@ black==24.4.0
 click==8.1.7
     # via black
 django==5.0.4
+    # via
+    #   django-stubs
+    #   django-stubs-ext
+    #   django-template (pyproject.toml)
+django-stubs==4.2.7
     # via django-template (pyproject.toml)
+django-stubs-ext==4.2.7
+    # via django-stubs
 iniconfig==2.0.0
     # via pytest
 mypy==1.9.0
@@ -36,5 +43,12 @@ ruff==0.3.7
     # via django-template (pyproject.toml)
 sqlparse==0.5.0
     # via django
+types-pytz==2024.1.0.20240203
+    # via django-stubs
+types-pyyaml==6.0.12.20240311
+    # via django-stubs
 typing-extensions==4.11.0
-    # via mypy
+    # via
+    #   django-stubs
+    #   django-stubs-ext
+    #   mypy
