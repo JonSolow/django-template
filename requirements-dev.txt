@@ -10,7 +10,7 @@ black==24.4.0
     # via django-template (pyproject.toml)
 click==8.1.7
     # via black
-django==5.0.4
+django==5.1
     # via
     #   django-stubs
     #   django-stubs-ext
